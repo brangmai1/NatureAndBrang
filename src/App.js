@@ -1,8 +1,9 @@
-import './App.css';
+import './styles/App.css';
 import Header from "./components/Header";
 import PhotoGrid from "./components/PhotoGrid";
 import TravelJournal from './components/TravelJournal';
 import TravellingData from "./components/TravellingData";
+import Footer from './components/Footer';
 
 function App() {
   const travellingData = TravellingData.map( data => 
@@ -15,6 +16,7 @@ function App() {
       <Header />
       <PhotoGrid />
       { travellingData }
+      <Footer />
     </div>
   );
 }

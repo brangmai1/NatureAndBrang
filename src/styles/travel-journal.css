@@ -5,7 +5,7 @@
     align-items: center;
     margin: 0px 50px;
     padding: 20px;
-    border-bottom: 1px solid rgb(216, 215, 215);
+    border-top: 1px solid rgb(216, 215, 215);
 }
 .travel-image {
     width: 200px;
@@ -15,6 +15,7 @@
     border-style: none;
     border-radius: 8px;
     object-fit: cover;
+    cursor: pointer;
 }
 .travel-info {
     width: 700px;
@@ -25,8 +26,9 @@
     display: flex;
     align-items: center;
 }
-.location-info--symbol {
-    width: 20px;
+.location-info--icon {
+    width: 14px;
+    margin-right: 4px;
 }
 .location-info--country {
     font-size: 15px;
@@ -34,21 +36,22 @@
 }
 .location-info--map {
     color: rgb(94, 92, 92);
+    cursor: pointer;
+}
+.location-info--map:hover {
+    opacity: 0.7;
 }
 .travel-memo {
    /* line-height: 26px; */
 }
 .travel-memo h2 {
     font-size: 32px;
-    font-weight: ;
-    margin-bottom: 20px;
-    
-
-}.travel-memo h5 {
+    margin-bottom: 20px;   
+}
+.travel-memo h5 {
     font-weight: bold;
     margin-bottom: 10px;   
 }
 .travel-memo p {
-    /* line-height: 10px; */
     color: rgb(94, 92, 92);
 }

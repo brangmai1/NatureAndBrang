@@ -1,0 +1,27 @@
+.footer-container {
+    margin-bottom: 0;
+    padding: 10px 40px;
+    height: 100px;
+    background-color: rgb(230, 230, 230);
+    color: rgb(111, 111, 111);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer-container p{
+    font-size: 16px;
+    padding: 20px auto;
+  }
+  .social-media {
+    display: flex;
+    margin-right: 10px;
+  }
+  .social-media img {
+    width: 100px;
+    object-fit: contain;
+    margin-left: 20px;
+  }
+  .social-media img:hover {
+    opacity: 0.7;
+  }

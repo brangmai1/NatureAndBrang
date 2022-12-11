@@ -1,5 +1,5 @@
 import React from "react";
-import locationIcon from "../images/location-icon.webp"
+import locationIcon from "../images/icons/location-icon.webp"
 
 export default function TravelJournal(props) {
     return (
@@ -7,9 +7,9 @@ export default function TravelJournal(props) {
             <img className="travel-image" src={require(`../images/${props.data.image}`)} alt="location"></img>
             <article className="travel-info">
                 <section className="location-info">
-                    <img className="location-info--symbol" src={locationIcon}alt="location-icon"></img>
+                    <img className="location-info--icon" src={locationIcon}alt="location-icon"></img>
                     <h5 className="location-info--country">{props.data.location}</h5>
-                    <a className="location-info--map" href="https://www.google.com" target="_blank">View on Google Maps</a>
+                    <a className="location-info--map" href={props.data.googleMap} target="_blank" rel="noreferrer">View on Google Maps</a>
                 </section>
                 <section  className="travel-memo">
                     <h2>{props.data.placeName}</h2>
