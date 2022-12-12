@@ -1,11 +1,9 @@
 .travel-journal {
-    font-family: Arial;
-    font-size: 14px;
     display: flex;
     align-items: center;
-    margin: 0px 50px;
-    padding: 20px;
+    padding: 20px 60px;
     border-top: 1px solid rgb(216, 215, 215);
+    background-color: white;
 }
 .travel-image {
     width: 200px;
@@ -18,7 +16,7 @@
     cursor: pointer;
 }
 .travel-info {
-    width: 700px;
+    /* width: auto; */
     /* display: flex; */
 }
 .location-info {
@@ -31,7 +29,6 @@
     margin-right: 4px;
 }
 .location-info--country {
-    font-size: 15px;
     margin-right: 10px;
 }
 .location-info--map {
@@ -45,8 +42,9 @@
    /* line-height: 26px; */
 }
 .travel-memo h2 {
-    font-size: 32px;
-    margin-bottom: 20px;   
+    font-size: 30px;
+    margin-bottom: 20px;  
+    margin-top: 10px; 
 }
 .travel-memo h5 {
     font-weight: bold;
@@ -54,4 +52,19 @@
 }
 .travel-memo p {
     color: rgb(94, 92, 92);
+}
+
+@media (max-width: 540px) {
+    .travel-journal {
+        display: inline-block;
+    }
+    .travel-image {
+        width: 200px;
+        height: 250px;
+    }
+    .travel-memo h2 {
+        margin-bottom: 20px;  
+        margin-top: 10px; 
+    }
+
 }

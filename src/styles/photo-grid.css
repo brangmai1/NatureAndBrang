@@ -1,10 +1,9 @@
 
 .main-container {
-    /* display: flex;
-    flex-direction: column; */
+   max-width: 1000px;
   }
   .picture-grid {
-    padding: 10px 200px;
+    padding: 30px 200px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;  
@@ -82,5 +81,12 @@
     background-color: navy;
     background-image: url("../images/IMG-1140.JPG");
     background-position-x: -20px;
+  }
+  @media (max-width:540px) {
+    .picture-grid {
+      padding: 10px 10px;
+      display: flex;          
+    }
+
   }
   

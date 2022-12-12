@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&family=Teko:wght@400;700&display=swap');
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -5,13 +7,15 @@
 }
 body {
   background-color: rgb(252, 239, 239);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
 .header {
-  /* height: 100px; */
-  padding: 10px;
-  background-color: rgb(47, 153, 196);
-  font-family: Arial;
-  color: white;
+  height: 100px;
+  padding: 20px;
+  background-color: rgb(8, 69, 93);
+  font-family: 'Teko', sans-serif;
+  color: burlywood;
   font-size: 26px;
 }
 
