@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&family=Teko:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(252, 239, 239);
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+.header {
+  height: 100px;
+  padding: 20px;
+  background-color: rgb(8, 69, 93);
+  font-family: 'Teko', sans-serif;
+  color: burlywood;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header--title {
+  margin: 60px;
+}
+.header--right {
+  width: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 60px;
+  cursor: pointer;
+}
+.image-gallery, .about-me {
+  color: rgb(8, 69, 93);
+  background-color: rgb(231, 231, 231);
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+.image-gallery:hover, .about-me:hover {
+  opacity: 0.7;
+}
+
+

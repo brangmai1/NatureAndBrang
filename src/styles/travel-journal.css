@@ -1,0 +1,71 @@
+.travel-journal {
+    display: flex;
+    align-items: center;
+    padding: 20px 60px;
+    border-top: 1px solid rgb(216, 215, 215);
+    background-color: white;
+}
+.travel-image {
+    width: 200px;
+    height: 250px;
+    margin-right: 20px;
+    background-color: green;
+    border-style: none;
+    border-radius: 8px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.travel-info {
+    /* width: auto; */
+    /* display: flex; */
+}
+.location-info {
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+.location-info--icon {
+    width: 14px;
+    margin-right: 4px;
+}
+.location-info--country {
+    margin-right: 10px;
+}
+.location-info--map {
+    color: rgb(94, 92, 92);
+    cursor: pointer;
+}
+.location-info--map:hover {
+    opacity: 0.7;
+}
+.travel-memo {
+   /* line-height: 26px; */
+}
+.travel-memo h2 {
+    font-size: 30px;
+    margin-bottom: 16px;  
+    margin-top: 10px; 
+}
+.travel-memo h5 {
+    font-weight: bold;
+    margin-bottom: 10px;   
+}
+.travel-memo p {
+    color: rgb(94, 92, 92);
+    line-height: 30px;
+}
+
+@media (max-width: 540px) {
+    .travel-journal {
+        display: inline-block;
+    }
+    .travel-image {
+        width: 200px;
+        height: 250px;
+    }
+    .travel-memo h2 {
+        margin-bottom: 20px;  
+        margin-top: 10px; 
+    }
+
+}
