@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles/index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 import "./styles/photo-grid.css";
 import "./styles/travel-journal.css";
 import "./styles/footer.css";
@@ -13,5 +12,3 @@ root.render(
     <App />
   </React.StrictMode>
 );
-
-reportWebVitals();
