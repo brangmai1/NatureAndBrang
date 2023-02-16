@@ -43,7 +43,7 @@
 }
 .travel-memo h2 {
     font-size: 30px;
-    margin-bottom: 20px;  
+    margin-bottom: 16px;  
     margin-top: 10px; 
 }
 .travel-memo h5 {
@@ -52,6 +52,7 @@
 }
 .travel-memo p {
     color: rgb(94, 92, 92);
+    line-height: 30px;
 }
 
 @media (max-width: 540px) {

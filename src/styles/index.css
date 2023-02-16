@@ -34,7 +34,7 @@ body {
   cursor: pointer;
 }
 .image-gallery, .about-me {
-  color: black;
+  color: rgb(8, 69, 93);
   background-color: rgb(231, 231, 231);
   padding: 10px 16px;
   border-radius: 4px;
@@ -43,7 +43,7 @@ body {
   font-weight: bold;
 }
 .image-gallery:hover, .about-me:hover {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 
