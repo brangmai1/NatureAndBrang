@@ -17,7 +17,7 @@ export default function TravelJournal(props) {
                     <p>{props.data.note}</p>
                 </section>
             </article>
-
+            
         </div>
 
     )

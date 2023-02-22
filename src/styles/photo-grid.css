@@ -1,13 +1,10 @@
-
-.main-container {
-  text-align: center;
-}
 .picture-grid {
   padding: 60px 200px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 10px;  
-      
+  max-width: 1600px;
+  text-align: center;
 }
 .picture-grid div {
   padding: 5px 5px;
@@ -26,7 +23,6 @@
   grid-row: 3/13;
   background-image: url("../images/canyon-yellowstone.JPG");
 }
-
 .picture-grid div:nth-of-type(3) {
   grid-column: 3;
   grid-row: 1/10;
@@ -64,7 +60,7 @@
   grid-row: 13/23;
   background-image: url("../images/IMG-1140.JPG");
 }
-@media (max-width:540px) {
+@media (max-width:600px) {
   .picture-grid {
     padding: 10px 10px;
     display: flex;          
