@@ -11,7 +11,6 @@
     flex-direction: column;
     width: 400px;
     margin-right: 20px;
-    margin-bottom: 10px;
 }
 .travel-image {
     border-style: none;
@@ -43,8 +42,7 @@
 .travel-memo {
    /* line-height: 26px; */
 }
-.travel-memo h2 {
-    font-size: 26px;
+.travel-memo h3 {
     margin-bottom: 20px;  
     text-align: center;
 }
@@ -59,7 +57,7 @@
     text-justify: auto;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .travel-journal {
         display: inline-block;
         font-size: 16px;
@@ -71,7 +69,7 @@
         width: 400px;
         height: 250px;
     }
-    .travel-memo h2 {
+    .travel-memo h3 {
         margin-bottom: 20px;  
         margin-top: 10px; 
     }
@@ -82,7 +80,7 @@
     .travel-memo h2 {
         font-size: 22px;
     }
-    .travel-memo p {
+    .travel-memo p, h5 {
         margin: 0px 10px;
     }
 }

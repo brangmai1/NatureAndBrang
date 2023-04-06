@@ -13,9 +13,9 @@ export default function TravelJournal(props) {
                 </section>
             </div>            
             <section  className="travel-memo">
-                <h2>{props.data.placeName}</h2>
-                <h5>{props.data.date}</h5>
-                <p>{props.data.note}</p>
+                <h3 className="memo-title">{props.data.placeName}</h3>
+                <h5 className="memo-date">{props.data.date}</h5>
+                <p className="memo-para">{props.data.note}</p>
             </section>            
         </div>
 
