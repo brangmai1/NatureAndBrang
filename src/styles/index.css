@@ -91,5 +91,43 @@ body {
   }
 }
 
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 26px;
+}
+.contact-image {
+  width: 600px;
+  height: 400px;
+  background-color: lightblue;
+  margin: 40px;
+}
+.email {
+  text-decoration: none;
+  color: black;
+}
+.image-gallery-page {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image-gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 40px;
+  row-gap: 40px;
+}
+.image-frame {  
+  border-style: none;
+  background-color: rgb(126, 123, 123);
+  object-fit: cover;
+}
+.image-frame img {
+  width: 250px;
+  height: 180px;
+}
+
 
 

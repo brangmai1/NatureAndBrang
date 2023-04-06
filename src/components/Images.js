@@ -1,9 +1,9 @@
 import React from "react"
 
-export default function Images() {
+export default function Images(props) {
     return (
-        <div>
-            <h1>Yellostone Natinal Park</h1>
+        <div className="image-frame">
+            <img src={require(`../images/${props.data.image}`)} alt="gallery image" />
         </div>
     )
 
