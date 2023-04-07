@@ -14,16 +14,16 @@ const data = [
         image: "bisons.JPG",
         location: "Wyoming, USA",
         googleMap: "https://www.google.com/maps/@44.5294271,-110.470409,10z?hl=en",
-        placeName: "Bisons and Lanscape of Yellostone National Park",
+        placeName: "Bisons and Lanscape of Yellowstone National Park",
         date: "September - October, 2022",
-        note: "This part of Yellow Stone National Park is so peaceful and relaxing. The lanscape, the winding river and the bisons calmed me down from my worries, anxieties and concerns. I have no word to describe the beauty of Yellow Stone National Park."
+        note: "This part of Yellowstone National Park is so peaceful and relaxing. The lanscape, the winding river and the bisons calmed me down from my worries, anxieties and concerns. I have no word to describe the beauty of Yellow Stone National Park."
     },
     {
         id: 3,
         image: "valley.JPG",
         location: "New Mexico & Utah, USA",
         googleMap: "https://www.google.com/maps/@36.9867152,-110.1723535,12z?hl=en",
-        placeName: "National Manument Valley",
+        placeName: "National Monument Valley",
         date: "September - October, 2022",
         note: "The National Manument Valley is a strange and slightly scary place for me because of its geologic heritage. The red rocks are standing tall in the middle of desert like temples. Besides seeing the nature wonders, I have met some amazing native americans during my last visit. I learned some of their cultures and history. I will never forget my experience about the place and the people of this part of the country."
     },
@@ -62,6 +62,16 @@ const data = [
         placeName: "The Winding River in Yellowstone",
         date: "September - October, 2022",
         note: "Yellow Stone National Park"
+    },
+    {
+        id: 8,
+        image: "river.JPG",
+        location: "Wyoming, USA",
+    },
+    {
+        id: 9,
+        image: "hotspring.JPG",
+        location: "Wyoming, USA",
     }
 ]
 export default data

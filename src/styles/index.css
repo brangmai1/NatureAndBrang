@@ -8,7 +8,7 @@
   margin: 0;
 }
 body {
-  background-color: rgb(252, 239, 239);
+  background-color: rgb(255, 255, 255);
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
 }
@@ -45,8 +45,8 @@ body {
   font-weight: bold;
   text-decoration: none;
 }
-.image-gallery:hover {
-  opacity: 0.7;
+.home:hover, .image-gallery:hover, .about-me:hover, .contact:hover {
+  opacity: 0.8;
 }
 .about-me-container {
   display: flex;
@@ -116,17 +116,88 @@ body {
 .image-gallery-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 40px;
-  row-gap: 40px;
+  column-gap: 10px;
 }
 .image-frame {  
   border-style: none;
   background-color: rgb(126, 123, 123);
   object-fit: cover;
+  margin-top: 40px;
 }
 .image-frame img {
   width: 250px;
   height: 180px;
+}
+.aboutme-page {
+  margin: 20px 200px;
+}
+.aboutme-container {
+  text-align: center;
+}
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: right 10% top 10%;
+  border-style: none;
+  border-radius: 200px;
+}
+.profile-highlight {
+  text-align: justify;
+}
+.skills li {
+  list-style-type: none;
+  text-align: left;
+}
+.language {
+  display: grid;
+  grid-template-columns: 10% 80px;
+  padding: 8px;
+}
+.knowledge {
+  width: 400px;
+  height: 20px;
+  background-color: antiquewhite;
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.javascript, .python, .cplusplus, .html, .css, .swift, .sql {
+  width: 80%;
+  height: 100%;
+  background-color: blue;
+}
+.python {
+  width: 80%;
+}
+.cplusplus {
+  width: 70%;
+}
+.html {
+  width: 70%;
+}
+.css {
+  width: 60%;
+}
+.swift {
+  width: 50%;
+}
+.sql {
+  width: 50%;
+}
+.tools {
+  display: block;
+}
+.tools-icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+.icon {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
 }
 
 
