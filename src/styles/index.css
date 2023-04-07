@@ -129,10 +129,17 @@ body {
   height: 180px;
 }
 .aboutme-page {
-  margin: 20px 200px;
+  margin: 20px 100px;
+  line-height: 30px;
+}
+.aboutme-profile {
+  text-align: center;
+  margin: 20px;
 }
 .aboutme-container {
-  text-align: center;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  column-gap: 40px;
 }
 .profile-pic {
   width: 200px;
@@ -151,11 +158,12 @@ body {
 }
 .language {
   display: grid;
-  grid-template-columns: 10% 80px;
+  grid-template-columns: 25% 60px;
   padding: 8px;
+  align-items: center;
 }
 .knowledge {
-  width: 400px;
+  width: 300px;
   height: 20px;
   background-color: antiquewhite;
   border: 1px solid black;
@@ -195,8 +203,8 @@ body {
   column-gap: 10px;
 }
 .icon {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   object-fit: contain;
 }
 
