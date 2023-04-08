@@ -14,7 +14,7 @@ body {
 }
 .header {
   height: 100px;
-  background-color: rgb(8, 69, 93);
+  background-color: #034774;
   font-family: 'Teko', sans-serif;
   color: burlywood;
   font-size: 28px;
@@ -36,7 +36,8 @@ body {
   cursor: pointer;
 }
 .home, .image-gallery, .about-me, .contact {
-  color: rgb(8, 69, 93);
+  /* color: rgb(8, 69, 93); */
+  color: #034774;
   background-color: rgb(231, 231, 231);
   padding: 10px 12px;
   border-radius: 4px;
@@ -129,12 +130,16 @@ body {
   height: 180px;
 }
 .aboutme-page {
-  margin: 20px 100px;
-  line-height: 30px;
+  margin: 20px 80px;
+  line-height: 26px;
 }
 .aboutme-profile {
-  text-align: center;
-  margin: 20px;
+  margin-bottom: 30px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(214, 214, 214);
 }
 .aboutme-container {
   display: grid;
@@ -148,6 +153,7 @@ body {
   object-position: right 10% top 10%;
   border-style: none;
   border-radius: 200px;
+  margin-right: 20px;
 }
 .profile-highlight {
   text-align: justify;
@@ -165,7 +171,7 @@ body {
 .knowledge {
   width: 300px;
   height: 20px;
-  background-color: antiquewhite;
+  background-color: rgb(252, 252, 252);
   border: 1px solid black;
   border-radius: 10px;
   overflow: hidden;
@@ -173,7 +179,7 @@ body {
 .javascript, .python, .cplusplus, .html, .css, .swift, .sql {
   width: 80%;
   height: 100%;
-  background-color: blue;
+  background-color: rgb(50, 149, 231);
 }
 .python {
   width: 80%;
@@ -195,6 +201,7 @@ body {
 }
 .tools {
   display: block;
+  margin-top: 32px;
 }
 .tools-icons {
   display: grid;
@@ -206,6 +213,15 @@ body {
   width: 80px;
   height: 80px;
   object-fit: contain;
+}
+@media (max-width: 800px){
+  .aboutme-page {
+    margin: 20px 20px;
+  }
+  .aboutme-container {
+    display: block;
+    margin: 20px 10px;
+  }
 }
 
 
