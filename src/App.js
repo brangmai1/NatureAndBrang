@@ -21,6 +21,7 @@ function App() {
       </div>
       <Routes>
         <Route path="/" exact element={<Home />} />
+        <Route path="/NatureAndBrang" exact element={<Home />} />
         <Route path="/image-gallery" exact element={<ImageGallery />} />
         <Route path="/about" exact element={<About />} />
         <Route path="/contact" exact element={<Contact />} />
