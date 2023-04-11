@@ -1,10 +1,13 @@
-.travel-journal {
+.travel-journal, .travel-journal-selected {
     display: flex;
     align-items: flex-start;
     /* justify-content: start; */
     padding: 6px 60px;
     border-top: 1px solid rgb(216, 215, 215);
     background-color: white;
+}
+.travel-journal-selected {
+    background-color: rgb(237, 237, 237);
 }
 .journal-left {
     display: flex;

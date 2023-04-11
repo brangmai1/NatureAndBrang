@@ -2,8 +2,13 @@ import React from "react";
 import locationIcon from "../images/icons/location-icon.webp"
 
 export default function TravelJournal(props) {
+    const [select, setSelect] = React.useState(false)
+    function handleSelect(){
+        setSelect(prevState => !prevState)
+    }
     return (
-        <div className="travel-journal">
+        <div className={select ? "travel-journal-selected" : "travel-journal"} 
+            onMouseEnter={handleSelect} onMouseLeave={handleSelect}>
             <div className="journal-left">
                 <img className="travel-image" src={require(`../images/${props.data.image}`)} alt="location"></img>
                 <section className="location-info">

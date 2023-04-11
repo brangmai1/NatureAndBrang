@@ -10,8 +10,7 @@ export default function Images(props) {
         <div className={zoomImage ? "image-frame-zoom" : "image-frame"} 
             onMouseEnter={handleZoomImage} onMouseLeave={handleZoomImage}>
             <img src={require(`../images/${props.data.image}`)} alt="gallery" />
-            <p className="view-image-message">Click to view image</p> 
-            
+            <p className="view-image-message">Click to view image</p>             
         </div>
     )
 
