@@ -1,29 +1,36 @@
 {
   "files": {
-    "main.css": "/NatureAndBrang/static/css/main.021b535a.css",
-    "main.js": "/NatureAndBrang/static/js/main.d1afc9e7.js",
+    "main.css": "/NatureAndBrang/static/css/main.ffcfac2c.css",
+    "main.js": "/NatureAndBrang/static/js/main.e654f817.js",
     "static/media/nature-wonders.JPG": "/NatureAndBrang/static/media/nature-wonders.6f3c8a2950dcf4ab301d.JPG",
     "static/media/canyon-yellowstone.JPG": "/NatureAndBrang/static/media/canyon-yellowstone.74ad546443d4229a7730.JPG",
     "static/media/dinosaur-nm.JPG": "/NatureAndBrang/static/media/dinosaur-nm.5ba6856ce516d408a494.JPG",
+    "static/media/river.JPG": "/NatureAndBrang/static/media/river.a2831d3d5410d8ed9d56.JPG",
     "static/media/dune.JPG": "/NatureAndBrang/static/media/dune.20f225224b0577d555ff.JPG",
+    "static/media/hotspring.JPG": "/NatureAndBrang/static/media/hotspring.072971d3a2a45c1419ff.JPG",
     "static/media/winding-river.JPG": "/NatureAndBrang/static/media/winding-river.92f7d8a600a51587855e.JPG",
     "static/media/bisons.JPG": "/NatureAndBrang/static/media/bisons.0d135a03825d68b3266f.JPG",
     "static/media/grandtetons.JPG": "/NatureAndBrang/static/media/grandtetons.49dba6529106a6ae38b0.JPG",
-    "static/media/IMG-1836.jpg": "/NatureAndBrang/static/media/IMG-1836.661d58859f06a1878577.jpg",
+    "static/media/aboutme.jpg": "/NatureAndBrang/static/media/aboutme.661d58859f06a1878577.jpg",
     "static/media/IMG-1140.JPG": "/NatureAndBrang/static/media/IMG-1140.5003754375fe82d16502.JPG",
     "static/media/IMG-1594.JPG": "/NatureAndBrang/static/media/IMG-1594.195fe5f00a5dd6a95229.JPG",
     "static/media/valley.JPG": "/NatureAndBrang/static/media/valley.861bf868087defc3711b.JPG",
+    "static/media/vscode.png": "/NatureAndBrang/static/media/vscode.e66400756ccbdbfc0b31.png",
+    "static/media/xcode.png": "/NatureAndBrang/static/media/xcode.36d516cc993feb45e0b3.png",
+    "static/media/react.png": "/NatureAndBrang/static/media/react.1d385d14e08b2ed7362a.png",
+    "static/media/jupyter-logo.png": "/NatureAndBrang/static/media/jupyter-logo.e0e612fd290b62ecd44a.png",
     "static/media/facebook-logo.jpeg": "/NatureAndBrang/static/media/facebook-logo.eba542f3a8b6e946f447.jpeg",
+    "static/media/git-logo.png": "/NatureAndBrang/static/media/git-logo.c2f5c09e9ee42220a99c.png",
     "static/media/facebook.png": "/NatureAndBrang/static/media/facebook.1775943a251b9828addc.png",
     "static/media/GitHub.png": "/NatureAndBrang/static/media/GitHub.1b6bd0e4b6626baba753.png",
     "static/media/location-icon.webp": "/NatureAndBrang/static/media/location-icon.a97ef23a67d8e088797d.webp",
     "static/media/Linkedin-Logo.png": "/NatureAndBrang/static/media/Linkedin-Logo.1b4071d0891e44a8d69b.png",
     "index.html": "/NatureAndBrang/index.html",
-    "main.021b535a.css.map": "/NatureAndBrang/static/css/main.021b535a.css.map",
-    "main.d1afc9e7.js.map": "/NatureAndBrang/static/js/main.d1afc9e7.js.map"
+    "main.ffcfac2c.css.map": "/NatureAndBrang/static/css/main.ffcfac2c.css.map",
+    "main.e654f817.js.map": "/NatureAndBrang/static/js/main.e654f817.js.map"
   },
   "entrypoints": [
-    "static/css/main.021b535a.css",
-    "static/js/main.d1afc9e7.js"
+    "static/css/main.ffcfac2c.css",
+    "static/js/main.e654f817.js"
   ]
 }
