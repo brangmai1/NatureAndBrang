@@ -1,28 +1,32 @@
-.travel-journal {
+.travel-journal, .travel-journal-selected {
     display: flex;
-    align-items: center;
-    padding: 20px 60px;
+    align-items: flex-start;
+    /* justify-content: start; */
+    padding: 6px 60px;
     border-top: 1px solid rgb(216, 215, 215);
     background-color: white;
 }
-.travel-image {
-    width: 200px;
-    height: 250px;
+.travel-journal-selected {
+    background-color: rgb(237, 237, 237);
+}
+.journal-left {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
     margin-right: 20px;
-    background-color: green;
+}
+.travel-image {
     border-style: none;
     border-radius: 8px;
     object-fit: cover;
     cursor: pointer;
-}
-.travel-info {
-    /* width: auto; */
-    /* display: flex; */
+    margin-bottom: 10px;
 }
 .location-info {
-    width: 500px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    font-size: 16px;
 }
 .location-info--icon {
     width: 14px;
@@ -41,31 +45,45 @@
 .travel-memo {
    /* line-height: 26px; */
 }
-.travel-memo h2 {
-    font-size: 30px;
-    margin-bottom: 16px;  
-    margin-top: 10px; 
+.travel-memo h3 {
+    margin-bottom: 10px;  
+    text-align: center;
 }
 .travel-memo h5 {
+    margin-bottom: 10px; 
     font-weight: bold;
-    margin-bottom: 10px;   
 }
-.travel-memo p {
+.travel-memo p, h5 {
     color: rgb(94, 92, 92);
     line-height: 30px;
+    text-align: justify;
+    text-justify: auto;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 700px) {
     .travel-journal {
         display: inline-block;
+        font-size: 16px;
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
     }
     .travel-image {
-        width: 200px;
+        width: 400px;
         height: 250px;
     }
-    .travel-memo h2 {
+    .travel-memo h3 {
         margin-bottom: 20px;  
         margin-top: 10px; 
     }
-
+    .location-info {        
+        align-items: center;
+        justify-content: center;
+    }
+    .travel-memo h2 {
+        font-size: 22px;
+    }
+    .travel-memo p, h5 {
+        margin: 0px 10px;
+    }
 }
